@@ -31,7 +31,6 @@
             padding: 12px 30px; border-radius: 50px; font-weight: bold;
             cursor: pointer; margin-top: 20px; transition: 0.3s;
         }
-        /* Modal điều ước */
         #wish-modal {
             position: fixed; inset: 0; background: rgba(0,0,0,0.6);
             display: none; justify-content: center; align-items: center;
@@ -48,7 +47,6 @@
     <div class="container">
         <h1>Hép bi bớt đay 🎂</h1>
         <div class="polaroid">
-            <!-- Thay link ảnh công chúa của bạn ở đây -->
             <img src="../Assets/IMG_6200.JPG" alt="Princess">
             <p style="font-family: 'Pacifico'; color: #888; margin-top: 10px;">Công túa số 1 trong lòng anh ✨</p>
         </div>
@@ -68,7 +66,6 @@
             <button class="btn-wish" onclick="document.getElementById('wish-modal').style.display='none'">Đóng ❤️</button>
         </div>
     </div>
-
     <script>
         window.onload = function() {
             confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#ff4d6d', '#daa939'] });
